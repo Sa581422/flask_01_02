@@ -13,9 +13,11 @@ def second():
 def third():
     return 'This is third page'
 
+
 @app.route('/forth/<string:id>')
 def forth(id):
     return f'Id of this page is {id}'
+
 
 
 if __name__ == '__main__':
